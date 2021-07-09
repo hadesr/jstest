@@ -52,7 +52,7 @@ function setSigninStatus() {
    $('#credit-score').css('display', 'inline-block');
    $('#amount').css('display', 'inline-block');
    $('#confirm-payment-button').css('display', 'inline-block');
-   $('#auth-status').html('You are currently signed in. Payment options. UPI, Gpay //add');
+   $('#auth-status').html('You are currently signed in.');
    } else {
    $('#sign-in-or-out-button').html('Sign In With Google');
    $('#revoke-access-button').css('display', 'none');
